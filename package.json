@@ -1,0 +1,14 @@
+{
+  "name": "subs-2-files-merger",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Merge 2 SRT files with identical timestamps into 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "dependencies": {
+    "subtitle": "^4.2.1"
+  }
+}
