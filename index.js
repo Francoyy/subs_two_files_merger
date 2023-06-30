@@ -8,7 +8,7 @@ const subtitle_1_name = args[0];
 const subtitle_2_name = args[1];
 const subtitle_final_name = args[2];
 
-console.log("Merging " subtitle_1_name " and " + subtitle_2_name " into " + subtitle_final_name);
+console.log("Merging " + subtitle_1_name + " and " + subtitle_2_name + " into " + subtitle_final_name);
 
 let subtitle_1 = fs.readFileSync(`./src/${subtitle_1_name}`, 'utf8');
 let subtitle_2 = fs.readFileSync(`./src/${subtitle_2_name}`, 'utf8');
